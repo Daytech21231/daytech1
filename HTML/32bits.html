@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procesadores de 32 bits - DAYTECH</title>
+    <link rel="icon" href="images/daytech.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo32bits.css"> <!-- Archivo CSS específico para 32 bits -->
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap" rel="stylesheet">
+    <script src="scrip.js" defer></script>
+    <script src="animacion.js" defer></script> <!-- Archivo JS para animaciones -->
+</head>
+<body>
+    <!-- Barra de navegación flotante -->
+    <div class="navbar">
+        <img src="DAYTECH 1.jpg" alt="DAYTECH" class="navbarimg">
+        <h1>DAYTECH</h1>
+        
+        <!-- Barra de búsqueda dentro de la barra de navegación -->
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar palabra..." id="search-input">
+            <button type="submit" id="search-button">Buscar</button>
+        </div>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="content">
+        <h1 class="animate-on-scroll">Procesadores de 32 bits</h1>
+        <p id="textodeinicio" class="animate-on-scroll">
+            Los procesadores de 32 bits fueron una revolución en su época, permitiendo el manejo de hasta 4 GB de memoria RAM y siendo la base de muchos sistemas operativos y aplicaciones en los años 90 y principios de los 2000.
+        </p>
+
+        <!-- Imagen destacada con efecto fade -->
+        <div class="imagen-contenedor animate-on-scroll">
+            <img src="pentium.png" alt="Procesador de 32 bits">
+        </div>
+
+        <!-- Sección de características -->
+        <div class="seccion animate-on-scroll">
+            <h2>Características principales</h2>
+            <ul class="lista-caracteristicas">
+                <li><strong>Arquitectura:</strong> Basada en registros de 32 bits, lo que limita el direccionamiento de memoria a 4 GB.</li>
+                <li><strong>Compatibilidad:</strong> Ampliamente compatible con software antiguo y sistemas operativos como Windows XP.</li>
+                <li><strong>Eficiencia:</strong> Menor consumo de energía en comparación con los primeros procesadores de 64 bits.</li>
+                <li><strong>Uso:</strong> Aún utilizado en dispositivos embebidos y sistemas legacy.</li>
+            </ul>
+        </div>
+
+        <!-- Sección de procesadores relevantes -->
+        <div class="seccion animate-on-scroll">
+            <h2>Procesadores relevantes de 32 bits</h2>
+            <p>
+                Algunos de los procesadores de 32 bits más icónicos incluyen:
+            </p>
+            <ul class="lista-procesadores">
+                <li><span class="nombre-procesador">Intel 80386</span>: Uno de los primeros procesadores de 32 bits, lanzado en 1985.</li>
+                <li><span class="nombre-procesador">Intel 80486</span>: Mejoró el rendimiento y la eficiencia, popular en PCs de los 90.</li>
+                <li><span class="nombre-procesador">Intel Pentium</span>: Introdujo arquitectura superescalar, revolucionando el mercado.</li>
+                <li><span class="nombre-procesador">AMD Am386</span>: Competidor directo del Intel 80386, con mejor rendimiento.</li>
+                <li><span class="nombre-procesador">AMD Am486</span>: Ofreció una alternativa económica al Intel 80486.</li>
+                <li><span class="nombre-procesador">ARMv7</span>: Arquitectura de 32 bits ampliamente utilizada en dispositivos móviles.</li>
+                <li><span class="nombre-procesador">Motorola 68000</span>: Usado en computadoras como la Apple Macintosh y consolas como la Sega Genesis.</li>
+                <li><span class="nombre-procesador">DEC Alpha 21064</span>: Aunque principalmente de 64 bits, tenía modos de 32 bits.</li>
+                <li><span class="nombre-procesador">MIPS R2000</span>: Usado en estaciones de trabajo y sistemas embebidos.</li>
+                <li><span class="nombre-procesador">PowerPC 601</span>: Desarrollado por IBM, Motorola y Apple, usado en Macs antiguas.</li>
+            </ul>
+        </div>
+
+        <!-- Sección de diferencias entre 32 y 64 bits -->
+        <div class="seccion animate-on-scroll">
+            <h2>Diferencias entre procesadores de 32 y 64 bits</h2>
+            <p>
+                A continuación, se presenta una tabla comparativa más detallada entre procesadores de 32 bits y 64 bits:
+            </p>
+            <table class="tabla-comparativa">
+                <thead>
+                    <tr>
+                        <th>Característica</th>
+                        <th>32 bits</th>
+                        <th>64 bits</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Memoria direccionable</td>
+                        <td>Hasta 4 GB</td>
+                        <td>Hasta 16 EB (Exabytes)</td>
+                    </tr>
+                    <tr>
+                        <td>Registros</td>
+                        <td>32 bits</td>
+                        <td>64 bits</td>
+                    </tr>
+                    <tr>
+                        <td>Compatibilidad</td>
+                        <td>Solo software de 32 bits</td>
+                        <td>Software de 32 y 64 bits</td>
+                    </tr>
+                    <tr>
+                        <td>Rendimiento en aplicaciones modernas</td>
+                        <td>Limitado</td>
+                        <td>Optimizado</td>
+                    </tr>
+                    <tr>
+                        <td>Uso en sistemas operativos</td>
+                        <td>Windows XP, Linux antiguo</td>
+                        <td>Windows 10/11, Linux moderno, macOS</td>
+                    </tr>
+                    <tr>
+                        <td>Seguridad</td>
+                        <td>Menor protección contra exploits</td>
+                        <td>Mayor protección (ej: DEP, ASLR)</td>
+                    </tr>
+                    <tr>
+                        <td>Uso en dispositivos</td>
+                        <td>Dispositivos embebidos, sistemas legacy</td>
+                        <td>Computadoras modernas, servidores, móviles</td>
+                    </tr>
+                    <tr>
+                        <td>Consumo de energía</td>
+                        <td>Menor</td>
+                        <td>Mayor (depende del modelo)</td>
+                    </tr>
+                    <tr>
+                        <td>Costo</td>
+                        <td>Más económico</td>
+                        <td>Más costoso</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Sección de enlaces relacionados -->
+        <div class="seccion animate-on-scroll">
+            <h2>Explora más</h2>
+            <p>
+                Si deseas conocer más sobre otros componentes, visita las siguientes páginas:
+            </p>
+            <ul class="lista-enlaces">
+                <li><a href="gpu.html" class="enlace-componente">Tarjeta gráfica (GPU)</a></li>
+                <li><a href="ram.html" class="enlace-componente">Memoria RAM</a></li>
+                <li><a href="motherboard.html" class="enlace-componente">Placa base (Motherboard)</a></li>
+                <li><a href="psu.html" class="enlace-componente">Fuente de alimentación (PSU)</a></li>
+            </ul>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Desarrolladores:</h3>
+                <ul>
+                    <li>Jorge David Herrera Ramírez</li>
+                    <li>Estefania Guerra Allende</li>
+                    <li>Angel Daniel Beltran Gutierrez</li>
+                    <li>Valentina Najera Flores</li>
+                    <li>Jesus Abel Asis Zopiyaztle</li>
+                    <li>Axel Emmanuel</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Equipos usados:</h3>
+                <ul>
+                    <li>Asus D515DAP</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 DAYTECH. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
